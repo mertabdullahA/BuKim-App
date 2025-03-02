@@ -11,3 +11,4 @@ class UsersAdmin(admin.ModelAdmin):
         if obj.user_password:  # Eğer bir şifre girilmişse hashle
             obj.user_password = make_password(obj.user_password)
         super().save_model(request, obj, form, change)
+
