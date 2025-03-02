@@ -79,9 +79,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'BuKim',  # PostgreSQL veritabanı adı
         'USER': 'postgres',  # PostgreSQL kullanıcı adı
-        'PASSWORD': '1',  # PostgreSQL şifresi
+        'PASSWORD': '15531234k',  # PostgreSQL şifresi
         'HOST': 'localhost',  # PostgreSQL sunucu adresi (localhost)
         'PORT': '5432',  # PostgreSQL portu
+        'OPTIONS': {
+            'client_encoding': 'UTF8',
+        },
     }
 }
 
