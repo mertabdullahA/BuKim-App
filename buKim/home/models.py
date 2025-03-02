@@ -16,3 +16,10 @@ class Users(models.Model):
 
     def __str__(self):
         return self.user_name
+
+
+class Comment(models.Model):
+    comment_text = models.TextField()
+
+    def __str__(self):
+        return self.comment_text
