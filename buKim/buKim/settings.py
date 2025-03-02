@@ -82,9 +82,6 @@ DATABASES = {
         'PASSWORD': '15531234k',  # PostgreSQL şifresi
         'HOST': 'localhost',  # PostgreSQL sunucu adresi (localhost)
         'PORT': '5432',  # PostgreSQL portu
-        'OPTIONS': {
-            'client_encoding': 'UTF8',
-        },
     }
 }
 
